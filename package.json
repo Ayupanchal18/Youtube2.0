@@ -1,15 +1,13 @@
 {
-  "name": "todo-mern",
+  "name": "youtubeprivate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-server": "cd Server && npm install",
-    "start-server": "cd Server && node index.js",
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
-  },
+   "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   "keywords": [],
   "author": "",
   "license": "ISC"
