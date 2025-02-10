@@ -8,8 +8,9 @@ import auth from '../middleware/auth.js'
 import { HistoryController, deleteHistoryController, getAllHistoryController } from "../controllers/history.js";
 import { viewController } from '../controllers/views.js'
 
+
 const routes = express.Router()
-routes.post("/uploadVideo", upload.single("file"), uploadVideo)
+routes.post("/uploadVideo", auth, upload.single("file"), uploadVideo)
 
 routes.get("/getvideos", getAllvideos);
 routes.patch('/like/:id', auth, likeController)
