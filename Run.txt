@@ -1,0 +1,5 @@
+Run Npm run in both end.
+Google authentication has been used for login.
+Node modules has been deleted.
+
+Demo Link - https://drive.google.com/file/d/1o9VNZ0XIKpS2SD1p07jmfvuIXsMJf7B_/view?usp=sharing
