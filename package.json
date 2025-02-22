@@ -1,19 +1,19 @@
 {
-"name": "youtubepvt",
-"version": "1.0.0",
-"description": "",
-"main": "Server/index.js",
-"scripts": {
-"start": "node Server/index.js",
-"develop": "concurrently \"cd Server && npm run watch\" \"cd client && npm run dev\"",
-"install": "cd Server && npm i && cd ../client && npm i --omit=dev",
-"build": "cd client && npm run build",
-"render-build":"npm install && npm run build"
-},
-"keywords": [],
-"author": "",
-"license": "ISC",
-"devDependencies": {
-"concurrently": "^8.2.0"
-}
+  "name": "youtubepvt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server/index.js",
+  "scripts": {
+    "start": "node Server/index.js",
+    "develop": "concurrently \"cd Server && npm run watch\" \"cd client && npm run dev\"",
+    "install": "cd Server && npm i && cd ../client && npm i --omit=dev",
+    "build": "cd client && npm run build",
+    "render-build": "npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
 }
